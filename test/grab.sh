@@ -1,0 +1,1 @@
+r=$(egrep 'PTEN|DNMT3A|TET2|BMPR2|TBX4|GATA4' ~/Resources/Gene/refGene_mRNA_protein_coding_hg37_Ensemble95_4VT.anno.txt  |cut -f 2 |awk '{for(i=1;i<NF+1;i++){print $i}}'|sort -k1,1n|uniq|awk 'BEGIN{ss=""}{ss=ss" "$1}END{print ss}')

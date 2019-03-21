@@ -1,0 +1,10 @@
+ANNOVAR Version:
+	$Date: 2017-07-17 01:17:04 -0400 (Mon, 17 Jul 2017) $
+ANNOVAR Information:
+	For questions, comments, documentation, bug reports and program update, please visit http://www.openbioinformatics.org/annovar/
+ANNOVAR Command:
+	/home/local/users/jw/software_packages/annovar/annotate_variation.pl -geneanno -buildver hg19 -dbtype exac03 -outfile test.genes.cadd1.txt.exac03 -exonsort test.genes.cadd1.txt /home/local/users/jw/resources/ANNOVAR_DB/
+ANNOVAR Started:
+	Wed Mar  6 17:12:51 2019
+NOTICE: Output files were written to test.genes.cadd1.txt.exac03.variant_function, test.genes.cadd1.txt.exac03.exonic_variant_function
+NOTICE: Reading gene annotation from /home/local/users/jw/resources/ANNOVAR_DB/hg19_exac03.txt ... 
